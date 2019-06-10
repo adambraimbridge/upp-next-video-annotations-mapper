@@ -1,4 +1,4 @@
-FROM golang:1.8-alpine
+FROM golang:1.12-alpine
 
 ENV PROJECT=upp-next-video-annotations-mapper-app
 COPY . /${PROJECT}-sources/
