@@ -3,7 +3,6 @@ apiVersion: apps/v1
 {{- else }}
 apiVersion: extensions/v1beta1
 {{- end }}
-apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
   name: {{ .Values.service.name }}
